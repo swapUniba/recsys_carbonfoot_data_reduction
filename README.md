@@ -8,7 +8,7 @@ This work investigates the path toward green recommender systems by examining th
 
 In this repository, we show how to reproduce the results we obtained.
 
-## Requirements
+## Requirements 
 
 The requirements needed to reproduce our experiments are related to the two libraries we used, [RecBole](https://recbole.io/docs/) and [CodeCarbon](https://mlco2.github.io/codecarbon/).
 Please refer to the original repositories to set proper virtual environments (they mainly require PyTorch).
