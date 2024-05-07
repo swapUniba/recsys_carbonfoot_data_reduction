@@ -1,5 +1,6 @@
 import os
 import shutil
+import time
 
 
 models = ['DMF', 'LightGCN', 'NGCF', 'DGCF', 'CKE', 'CFKG', 'KGNNLS']
@@ -14,8 +15,11 @@ for model in models:
     for split in splits:
 
         # define the name of the reduce dataset and execute recbole
-        dataset_ = f'{data}_split_{split}'
+        dataset = f'{data}_split_{split}'
         os.system(f"python exec_model.py {model} {dataset}")
+        # sleep
+        time.sleep(60)
+
         
         try:
             shutil.rmtree('log/')

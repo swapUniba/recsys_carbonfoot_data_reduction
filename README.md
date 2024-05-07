@@ -1,6 +1,6 @@
 # Towards Green Recommender Systems: Investigating the Impact of Data Reduction on Carbon Footprint and Algorithm Performances
 
-Source code for the paper "Towards Green Recommender Systems: Investigating the Impact of Data Reduction on Carbon Footprint and Algorithm Performances", submitted at IJCAI 24 for the special track "AI and Social Good".
+Source code for the paper "Towards Green Recommender Systems: Investigating the Impact of Data Reduction on Carbon Footprint and Algorithm Performances", submitted at ACM RecSys 2024 - Short Paper Track.
 
 ## Abstract
 
