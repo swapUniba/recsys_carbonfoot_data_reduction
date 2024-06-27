@@ -1,0 +1,63 @@
+### General models
+
+# DMF (more details on https://recbole.io/docs/user_guide/model/general/dmf.html)
+user_embedding_size: 64
+item_embedding_size: 64
+user_hidden_size_list: [64,64]
+item_hidden_size_list: [64,64]
+inter_matrix_type: '01'
+
+# LightGCN (more details on https://recbole.io/docs/user_guide/model/general/lightgcn.html)
+embedding_size: 64
+n_layers: 2
+reg_weight: 1e-05
+
+# NGCF (more details on https://recbole.io/docs/user_guide/model/general/ngcf.html)
+embedding_size: 64
+hidden_size_list: [64,64,64]
+node_dropout: 0.0
+message_dropout: 0.1
+reg_weight: 1e-05
+
+# DGCF (more details on https://recbole.io/docs/user_guide/model/general/dgcf.html)
+embedding_size: 64
+n_factors: 4
+n_iterations: 2
+n_layers: 1
+reg_weight: 1e-03
+cor_weight: 0.01
+
+
+### KARS models
+
+# CKE (more details on https://recbole.io/docs/user_guide/model/knowledge/cke.html)
+embedding_size: 64
+kg_embedding_size: 64
+reg_weights: [1e-02, 1e-02]		# it is a list
+
+# CFKG (more details on https://recbole.io/docs/user_guide/model/knowledge/cfkg.html)
+embedding_size: 64
+loss_function: 'inner_product'
+margin: 1.0
+
+# KGCN
+embedding_size: 64
+aggregator: 'sum'
+reg_weight: 1e-07
+neighbors_sample_size: 4
+n_iter: 1
+
+# KGNNLS (more details on https://recbole.io/docs/user_guide/model/knowledge/kgnnls.html)
+embedding_size: 64
+aggregator: 'sum'
+reg_weight: 1e-07
+neighbor_sample_size: 4
+n_iter: 1
+ls_weight: 0.5
+
+# RippleNet (more details on https://recbole.io/docs/user_guide/model/knowledge/ripplenet.html)
+embedding_size: 64
+n_hop: 2
+n_memory: 16
+reg_weight: 1e-07
+kg_weight: 0.01
