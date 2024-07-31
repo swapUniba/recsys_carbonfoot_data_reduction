@@ -1,6 +1,6 @@
 # Towards Green Recommender Systems: Investigating the Impact of Data Reduction on Carbon Footprint and Algorithm Performances
 
-Source code for the paper "Towards Green Recommender Systems: Investigating the Impact of Data Reduction on Carbon Footprint and Algorithm Performances", submitted at ACM RecSys 2024 - Short Paper Track.
+Source code for the paper "Towards Green Recommender Systems: Investigating the Impact of Data Reduction on Carbon Footprint and Algorithm Performances", published at ACM RecSys 2024 - Short Paper Track.
 
 ## Abstract
 
